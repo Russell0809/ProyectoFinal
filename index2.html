@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce - Inicio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<style>
+.columnas {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.columna-2-1, .columna-2-2{
+  flex-basis: 50%; /* Ancho de cada columna */
+}
+
+.columna-3-1, .columna-3-2, .columna-3-3 {
+  flex-basis: 33.33%; /* Ancho de cada columna */
+}
+
+.izquierda {
+  float: left;
+  width: 50%;
+}
+
+.derecha {
+  float: right;
+  width: 50%;
+}
+</style>
+
+<body>
+	<header>
+		<h1><span style="color: #037bc0">Tienda</span> Muebles</h1>
+    </header>
+	
+	  <nav>
+		<ul>
+		  <li><a href="#">Inicio</a></li>
+		  <li><a href="#">Nosotros</a></li>
+		  <li><a href="#">Tienda</a></li>
+		  <li><a href="#">Blog</a></li>
+		  <li><a href="#">Galeria</a></li>
+		  <li><a href="#">Contacto</a></li>
+		</ul>
+	  </nav>
+	  
+	<div>Hero</div>
+	
+
+<br>
+
+<section class="columnas">
+  <div class="columna-2-1">
+    <div class="izquierda">
+      producto 1
+    </div>
+    <div class="derecha">
+      dsc 1
+    </div>
+  </div>
+  <div class="columna-2-2">
+    <div class="izquierda">
+      producto 2
+    </div>
+    <div class="derecha">
+      dsc 2
+    </div>
+  </div>
+</section>	
+
+<br>
+
+<section class="columnas">
+  <div class="columna-3-1">
+    <div>
+      producto 1
+    </div>
+    <div >
+      dsc 1
+    </div>
+  </div>
+  <div class="columna-3-2">
+    <div>
+      producto 2
+    </div>
+    <div>
+      dsc 2
+    </div>
+  </div>
+  <div class="columna-3-3">
+    <div>
+      producto 3
+    </div>
+    <div>
+     dsc3
+    </div>
+  </div>
+</section>
+	
+</body>
+</html>

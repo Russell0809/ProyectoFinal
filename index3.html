@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce - Inicio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway&display=swap">
+</head>
+  
+  <style>
+	.div_general {
+		display: flex;
+		gap: 20px;
+	}
+
+	.columnas_1 {
+		width: 100%; 	
+		border: 1px solid black;
+		border-radius: 3px;
+		text-align: center;
+	}
+
+	.columnas_2 {
+		width: 50%; 
+		border: 1px solid black;
+		border-radius: 3px;
+		text-align: center;
+	}
+
+	.columnas_3 {
+		width: 33.33%; 
+		border: 1px solid black;
+		border-radius: 3px;
+		text-align: center;
+	}
+
+	.color_imagen {
+		background-color: white;
+		color: black;
+		display: flex;
+		justify-content: center;
+		align-items: center;	
+	}
+	
+	.color_imagen2{
+		background-color: white;
+		color: black;
+		height: 200px; /* altura definida */
+		width: 300px; /* ancho definido */
+	}
+	
+	.imagen1{
+		background-image: url('file:///C:/Users/gustavorodriguez/Desktop/Proyecti/Archivos%20Adjuntos%20Proyecto%20Final%20Frontend%20Fundamentals/producto1.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		aria-label: "Producto 1";
+	}
+	
+	.imagen2{
+		background-image: url('file:///C:/Users/gustavorodriguez/Desktop/Proyecti/Archivos%20Adjuntos%20Proyecto%20Final%20Frontend%20Fundamentals/producto2.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		aria-label: "Producto 2";
+	}
+	
+	.imagen3{
+	  height: 200px;
+	  width: 300px;
+	  background-image: url('file:///C:/Users/gustavorodriguez/Desktop/Proyecti/Archivos%20Adjuntos%20Proyecto%20Final%20Frontend%20Fundamentals/producto2.jpg');
+	  background-size: cover; /* ajustar la imagen al tamaño del contenedor */
+	  background-position: center;
+	  background-repeat: no-repeat;
+	}
+
+	.color_dsc {
+		background-color: #4D75C5;
+		color: white;
+	}
+
+	.boton-verde {
+		background-color: #6BE065;
+		color: white;
+		border: none;
+		padding: 5px 10px;
+		border-radius: 3px;
+	}
+  
+	.hero {
+		background-color: #A7B4BC;
+		height: 150px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		font-family: 'Playfair Display', serif;
+		font-size: 40px;
+		color: #FFFFFF;
+		border: none;
+		padding: 5px 10px;
+		border-radius: 10px;
+	}
+
+	.hero h1 {
+		font-size: 64px;
+		margin-top: 0;
+		margin-bottom: 30px;
+		font-family: 'Raleway', sans-serif;
+	}
+
+	.hero p {
+		font-size: 30px;
+		margin-top: 0;
+		margin-bottom: 2em;
+	}
+  </style>
+  
+  <body>
+ 	<header>
+		<h1>Tienda de <span style="color: #037bc0">Muebles</span></h1>
+    </header>
+	
+	<nav>
+		<ul>
+			<li><a href="#">Inicio</a></li>
+			<li><a href="#">Nosotros</a></li>
+			<li><a href="#">Tienda</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Galeria</a></li>
+			<li><a href="#">Contacto</a></li>
+		</ul>
+	</nav>
+	  
+	<div class="hero">hero imagen</div>
+	
+	<br><center>
+	<h2>NUESTROS PRODUCTOS</h2>
+	</center>
+	<br>
+  
+    <section>
+      <div class="div_general">
+        <div class="columnas_1 color_imagen imagen1"></div>
+        <div class="columnas_1 color_dsc">
+		<h2>Producto 1</h2>
+	    asasasasasasasasasasasasasasasasasasasasasasasasasasasas
+		asasasasasasasasasasasasasasasasasasasasasasasasasasasas
+		asasasasasasas
+		<br>
+		<br>
+		<a href="https://www.google.com">		
+		<button class="boton-verde">Agregar al carrito</button>
+		</a>
+		</div>
+      </div>
+    </section>
+    
+	<br>
+	
+    <section>
+      <div class="div_general">
+        <div class="columnas_2">
+          <div class="color_imagen2 imagen2">Div 1 - Columna 1</div>
+          <div class="color_dsc">Div 2 - Columna 1
+		  <br>
+		  <a href="https://www.google.com">		
+		  <button class="boton-verde">Agregar al carrito</button>
+		  </a>
+		  </div>
+        </div>
+        <div class="columnas_2">
+          <div class="imagen3">Div 1 - Columna 2</div>
+          <div class="color_dsc">Div 2 - Columna 2
+		  <br>
+		  <a href="https://www.google.com">		
+		  <button class="boton-verde">Agregar al carrito</button>
+		  </a>
+		  </div>
+        </div>
+      </div>
+    </section>
+	
+	<br>
+    
+    <section>
+      <div class="div_general">
+        <div class="columnas_3">
+          <div class="color_imagen">Div 1 - Columna 1</div>
+          <div class="color_dsc">Div 2 - Columna 1
+		  <a href="https://www.google.com">		
+		  <button class="boton-verde">Agregar al carrito</button>
+		  </a>
+		  </div>
+        </div>
+        <div class="columnas_3">
+          <div class="color_imagen">Div 1 - Columna 2</div>
+          <div class="color_dsc">Div 2 - Columna 2
+		  <a href="https://www.google.com">		
+		  <button class="boton-verde">Agregar al carrito</button>
+		  </a>
+		  </div>
+        </div>
+        <div class="columnas_3">
+          <div class="color_imagen">Div 1 - Columna 3</div>
+          <div class="color_dsc">Div 2 - Columna 3
+		  <a href="https://www.google.com">		
+		  <button class="boton-verde">Agregar al carrito</button>
+		  </a>
+		  </div>
+        </div>
+      </div>
+    </section>
+    
+  </body>
+</html>
+

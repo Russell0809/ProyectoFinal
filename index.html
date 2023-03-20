@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce - Inicio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<style>
+  .boton-verde {
+    background-color: #6BE065;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .container2 {
+	column-count: 2;
+	column-gap: 2px;
+	background: linear-gradient(to right, white 50%, #65AFE0 50%); /* Gradiente lineal que asigna un color a cada mitad del div */
+	border: 1px solid black; /* Grosor y color de la orilla */
+    border-radius: 20px; /* Radio de redondeo */
+	color: white;
+  }
+  
+  .alineado{
+	align-items: center;
+  }
+  
+  img {
+  width: 300px; /* ajusta el ancho de la imagen a 300 píxeles */
+  height: auto; /* ajusta la altura de la imagen proporcionalmente al ancho */
+  border-radius: 20px; /* Radio de redondeo */
+}
+  
+  
+.container {
+	display: flex;
+	gap: 20px;
+	border: 1px solid black; /* Grosor y color de la orilla */
+	border-radius: 20px; /* Radio de redondeo */
+	color: white;
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  height: 50%;
+  background-color: white;
+}
+
+.bottom {
+  height: 50%;
+  background-color: #65AFE0;
+}
+
+section {
+  overflow: auto; /* Agrega un clearfix para evitar problemas de float */
+}
+
+.left {
+  float: left;
+  width: 50%; /* O el ancho deseado para la primera sección */
+}
+
+.right {
+  float: right;
+  width: 50%; /* O el ancho deseado para la segunda sección */
+}
+</style>
+
+<body>
+	<header>
+		<h1><span style="color: #037bc0">Tienda</span> Muebles</h1>
+    </header>
+	
+	  <nav>
+		<ul>
+		  <li><a href="#">Inicio</a></li>
+		  <li><a href="#">Nosotros</a></li>
+		  <li><a href="#">Tienda</a></li>
+		  <li><a href="#">Blog</a></li>
+		  <li><a href="#">Galeria</a></li>
+		  <li><a href="#">Contacto</a></li>
+		</ul>
+	  </nav>
+	  
+	<div>Hero</div>
+	
+	<h2>NUESTROS PRODUCTOS</h2>
+<!--<table>
+  <tr>
+    <td class="fila_Imagen">hola</td>
+    <td class="fila_DscPrecio">
+		<h2>Producto 1</h2>
+		afsfasdflkadhflkjlhladflkjsdhflkjhasdflkjhsdlkfjhafsd
+		dsfjadsijfñoadshfñladjsñljadsfyyyyyyyyyyyyyyyyyyyyyyy
+		yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+		yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+		<br>$1200000
+		<br>
+		<button class="boton-verde">Agregar al carrito</button>
+	</td>
+  </tr>
+  <tr>
+	<td>1</td>
+	<td>2</td>
+  </tr>
+</table>-->
+
+<div class="container2">
+  <img src="producto1.jpg" alt="Mi imagen">
+  <h2 class="alineado">Producto 1</h2>
+  <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+  <button class="boton-verde">Agregar al carrito</button>
+</div>
+<br>
+<div class="container">
+  <div class="column">
+    <div class="top">
+      <h2 class="alineado">superior 1</h2>
+    </div>
+    <div class="bottom">
+      <h2 class="alineado">inferior 1</h2>
+    </div>
+  </div>
+  <div class="column">
+    <div class="top">
+     <h2 class="alineado">superior 2</h2>
+    </div>
+    <div class="bottom">
+      <h2 class="alineado">inferior 1</h2>
+    </div>
+  </div>
+  <div class="column">
+    <div class="top">
+     <h2 class="alineado">superior 3</h2>
+    </div>
+    <div class="bottom">
+      <h2 class="alineado">inferior 3</h2>
+    </div>
+  </div>
+</div>
+
+<div>
+	<header> nuestros productos</header>
+	<section>
+	  <div class="left">
+		Contenido de la primera sección
+	  </div>
+	  <div class="right">
+		Contenido de la segunda sección
+	  </div>
+	</section>
+</div>
+	
+</body>
+</html>
