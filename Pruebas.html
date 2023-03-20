@@ -5,8 +5,12 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Ecommerce - Inicio</title>
+
+		<!--
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
+		-->
+		<link rel="stylesheet" href="bootstrap.min.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway&display=swap">
 		<link rel="stylesheet" type="text/css" href="estilos.css">
     </header>
@@ -14,9 +18,10 @@
   <body>
   
 	<center>
-		<h1>Tienda de <span style="color: #037bc0">Muebles</span></h1>
+		<h1 style="color: black;">Tienda de <span style="color: #037bc0">Muebles</span></h1>
 	</center>
 
+	<!--
 	<nav>
 		<ul>
 			<li><a href="#">Inicio</a></li>
@@ -27,13 +32,45 @@
 			<li><a href="#">Contacto</a></li>
 		</ul>
 	</nav>
+-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+	<div class="container"> 
+		<a class="navbar-brand" href="#">
+			Tienda de Muebles
+		</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bstarget="#
+			navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+			aria-label="Toggle navigation"> 	
+			<span class="navbar-toggler-icon"></span> 
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav ms-auto">
+				<li class="nav-item"> 
+					<a class="nav-link" aria-current="page"	href="">Inicio</a> 
+				</li>
+				<li class="nav-item"> 
+					<a class="nav-link active" href="">Nosotros</a>
+				</li>
+				<li class="nav-item"> 
+					<a class="nav-link active" href="">Tienda</a>
+				</li>
+				<li class="nav-item"> 
+					<a class="nav-link active" href="">Blog</a>
+				</li>
+				<li class="nav-item"> 
+					<a class="nav-link active" href="">Galeria</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
 		  
 	<div class="hero">hero imagen</div>
 	
 	<br><center>
 	<h2 style="color: black;">NUESTROS PRODUCTOS</h2>
 	</center>
-	<br>
+	
 
 	<table>
 		<tbody>
@@ -144,6 +181,8 @@
 	</center>
 	<br>
 
+	<!-- class="text-decoration-none" -->
+
 	<table>
 		<tbody>
 			<tr>
@@ -159,26 +198,27 @@
 			</tr>
 			<tr>
 				<td class="CatProductos">
-					<h2 style="text-align: center;">Oficina</h2>                                                    
+					<h2 style="text-align: center; color: black;">Oficina</h2>                                                    
 				</td>		                                                                                      
 				<td class="CatProductos">
-					<h2 style="text-align: center;">Hogar</h2>                                                    
+					<h2 style="text-align: center; color: black;">Hogar</h2>                                                    
 				</td>	                                                                                          
 				<td class="CatProductos">
-					<h2 style="text-align: center;">Cocina</h2>
+					<h2 style="text-align: center; color: black;">Cocina</h2>
 				</td>			
 			</tr>
 		</tbody>
 	</table>	
 	
-	
+	<br>
+
 	<footer >
-		<table class="FooterTable">
+		<table class="FooterTable; container-xl">
 			<tbody>
 				<tr>
-					<td style="text-align: center;"><h3 style="color: black;">Categorias</h3></td>
-					<td style="text-align: center;"><h3 style="color: black;">Sobre nosotros</h3></td>
-					<td style="text-align: center;"><h3 style="color: black;">Soporte</h3></td>
+					<td style="text-align: center; padding: 0 50px;"><h3 style="color: black;">Categorias</h3></td>
+					<td style="text-align: center; padding: 0 50px;"><h3 style="color: black;">Sobre nosotros</h3></td>
+					<td style="text-align: center; padding: 0 50px;"><h3 style="color: black;">Soporte</h3></td>
 				</tr>
 			<tr>
 				<td style="padding: 0 50px;">
@@ -207,6 +247,6 @@
 		<p><a href="mailto:russel_24@live.com.mx">russel_24@live.com.mx</a></p>
 	</footer>
 
-   
+	<script src="bootstrap.bundle.min.js"></script>
   </body>
 </html>
