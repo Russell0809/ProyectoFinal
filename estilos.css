@@ -1,0 +1,117 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  color: white;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2, h3 {
+  font-size: 4rem;
+}
+
+.color-mueble {
+  color: #037BC0;
+}
+
+.DscProducto{
+    text-align: center; 
+    background-color: #33A6FF; 
+    border-radius: 10px; 
+    width: 350px; 
+    height: 250;
+    white-space: normal;
+}
+
+
+.boton-verde {
+    background-color: #6BE065;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.hero {
+  background-image: url('principal.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 25rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+table {
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+img {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+     border-radius: 10px; 
+     height: 250px; 
+     width: 100;
+}
+
+.CatProductos {
+    text-align: center; 
+    border-radius: 10px; 
+    width: 200px; 
+    white-space: normal; 
+    padding: 0 20px;
+}
+
+.FooterTable {
+    margin-left: auto; 
+    margin-right: auto;
+}
+/*
+.hero {
+    background-color: #A7B4BC;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: #FFFFFF;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-image: url('principal.jpg');
+    background-size: 500px;
+    background-position: center center;
+}
+
+.hero h1 {
+    font-size: 64px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hero p {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+*/
