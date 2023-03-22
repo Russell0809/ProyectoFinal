@@ -13,6 +13,12 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 
+.estiloDsc  {
+  background-color: #60A1F0;
+  text-align: center;
+  border-radius: 10px;
+}
+
 h1 {
   font-size: 5rem;
 }
@@ -40,7 +46,7 @@ h2, h3 {
     color: white;
     border: none;
     padding: 5px 10px;
-    border-radius: 3px;
+    border-radius: 15px;
     text-align: center;
 }
 
@@ -57,7 +63,7 @@ img {
     align-items: center;
      border-radius: 10px; 
      height: auto; 
-     max-width: 100%;
+     max-width: 133%;
 }
 
 img:hover {
