@@ -100,6 +100,7 @@ img:hover {
     right: 4rem;
     background-color: #33A6FF; 
     border: 0;
+    border-radius: 50px;
     color: white;
     cursor: pointer;
 }
@@ -160,17 +161,9 @@ nav.principal a:hover {
   }
 
   .botonMenu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 2rem;    
-    height: 2rem;
-    position: fixed;
-    top: 1rem;
-    right: 1rem;
-    background-color: #33A6FF; 
-    border: 0;
-    color: white;
-    cursor: pointer;
+    width: 3rem;    
+    height: 3rem;
+    top: 1.5rem;
+    right: 1.5rem;
   }
 }
