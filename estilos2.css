@@ -1,0 +1,97 @@
+html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    color: white;
+  }
+  
+  h1 {
+    font-size: 5rem;
+  }
+  
+  h2, h3 {
+    font-size: 4rem;
+  }
+
+.slider-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow-x: scroll;
+
+    scroll-snap-type: x mandatory;
+  }
+  
+  .slider-container img {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover; 
+  
+    scroll-snap-align: center;
+  }
+
+  .divGenerico3  {
+    width: 100%; 
+    height: 100%;
+    align-items: center;
+  }
+
+/*-----------------------------------*/
+/*-----------------------------------*/
+
+  .botonMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;    
+    height: 8rem;
+    position: fixed;
+    top: 4rem;
+    right: 4rem;
+    background-color: #33A6FF; 
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+.botonMenu:focus {
+    outline: none;
+}
+.botonMenu:focus + .principal {
+    transform: translateX(0rem);
+}
+
+nav.principal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 15rem;
+    background-color: #33A6FF; 
+    transform: translateX(15rem);
+    transition: .5s all;
+}
+nav.principal ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav.principal a {
+    display: block;
+    color: white;
+    padding: 1rem;
+    transition: .5s all;
+}
+nav.principal a:hover {
+    text-decoration: none;
+    background-color: #33A6FF; 
+}
+
+  
