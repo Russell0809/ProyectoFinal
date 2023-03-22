@@ -34,7 +34,8 @@
         </button>
         <nav class="principal">
             <ul>
-                <li><a href="file:///C:/Users/gustavorodriguez/Desktop/Proyecti/Archivos%20Adjuntos%20Proyecto%20Final%20Frontend%20Fundamentals/index.html">Inicio</a></li>
+                <li><a href="///C:/Users/gustavorodriguez/Desktop/Proyecti/Archivos%20Adjuntos%20Proyecto%20Final%20Frontend%20Fundamentals/index.html">Inicio</a></li>
+                <li><a href="#" onclick="cerrarYAbrir()">Truco</a></li>
                 <li><a href="#">Nosotros</a></li>
                 <li><a href="#">Tienda</a></li>
                 <li><a href="#">Blog</a></li>
@@ -126,6 +127,18 @@
                 <p>Author: Gustavo Rodriguez Garcia</p>
                 <p><a href="mailto:russel_24@live.com.mx">russel_24@live.com.mx</a></p>
             </footer>
+
+            <script>
+                function cerrarYAbrir() {
+                  // Cerrar la página actual después de 3 segundos
+                  setTimeout(function() {
+                    window.close();
+                  }, 3000); // 3 segundos
+                
+                  // Abrir la página index.html después de cerrar la página actual
+                  window.open("index.html", "_blank");
+                }
+              </script>
 
     </body>
 </html>
